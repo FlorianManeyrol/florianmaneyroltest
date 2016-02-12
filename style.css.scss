@@ -1,1 +1,52 @@
+.navbar-main {
+  height: 80px;
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 0px;
+  top: 0px;
+  left: 0px;
+  margin-bottom: 0px;
+  border: 0px;
+}
+.navbar-logo {
+  position: absolute;
+  top: 50%;
+  bottom: auto;
+  display: block;
+  transform: translateY(-50%);
+}
+.navbar-logo a img {
+  height: 50px;
+}
+.navbar-menu {
+	float:right;
+	color:white;
+
+}
+.navbar-menu ul li {
+	display:inline-block;
+	padding: 0 25px;
+	line-height:80px;
+}
+
+.first-bloc {
+	background:url("images/cox.jpeg") no-repeat;
+	background-size:cover;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.first-bloc h1 {
+	flex:0 1 auto;
+	color:white;
+}
+
+.navbar-container {
+	max-width:1170px;
+	margin:0 auto;
+}
+
 
