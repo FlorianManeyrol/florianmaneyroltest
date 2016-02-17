@@ -2,12 +2,18 @@ body {
 	font-size:16px;
 	-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#020F1A;
 }
 
 ul {
 	margin: 0px;
 	padding:0px;
 }
+
+// @font-face {
+// 	font-family:"circular";
+// 	src: url('lineto-circular-book.ttf') format('truetype');
+// }
 
 
 .navbar-main {
@@ -47,16 +53,27 @@ ul {
 	background:url("images/cox.jpeg") no-repeat;
 	background-size:cover;
 	height:100vh;
+}
+
+.teaser {
+	flex:0 1 auto;
+	color:white;
+}
+
+.filter-black  {
 	display:flex;
 	justify-content:center;
 	align-items:center;
 }
 
-.first-bloc h1 {
-	flex:0 1 auto;
-	color:white;
+.first-bloc h1,h2,h3{
 	padding-right: 15px;
   padding-left: 15px;
+  text-shadow: 2px 2px 15px #000000;
+}
+
+.first-bloc h1 {
+	font-size:50px;
 }
 
 .navbar-container {
@@ -167,10 +184,94 @@ ul {
 	text-align:center;
 }
 
+
+.btn-fm {
+    background-color: transparent;
+    border-radius: 0px;
+    color: #2BB86C;
+    font-size: 23px;
+    padding: 6px 30px;
+    text-transform: lowercase;
+    font-weight: bold;
+    border-color: #2BB86C;
+}
+
+.btn-fm:hover {
+	  background-color: #2BB86C;
+    color: white;
+
+}
+
+.filter-black {
+	background-color: rgba(0, 0, 0, 0.5);
+	height:100vh;
+	width:100%;
+
+}
+
+
 .visible {
 	display:none;
 }
 
+.project {
+	height:100vh;
+}
+
+.contact {
+	height:100vh;
+	background-color:#FAFAFA;
+
+}
+
+.footer {
+	height: 150px;
+	background-color:#020F1A;
+	width:100%;
+}
+
+.icon {
+	background-color:#2BB86C;
+	display:inline-block;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	position:relative;
+	margin:0 30px;
+}
+
+.icon a {
+	color:white;
+}
+
+
+
+.fa-twitter:before {
+	position:absolute;
+	bottom: 8px;
+	left: 11px;
+}
+
+.fa-github:before {
+	position:absolute;
+	bottom: 8px;
+	left: 11px;
+}
+
+.fa-linkedin-square:before {
+	position:absolute;
+	bottom: 8px;
+	left: 11px;
+}
+
+.footer {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+.footer-flex {
+	flex:0 1 auto;
+}
 
 
 
