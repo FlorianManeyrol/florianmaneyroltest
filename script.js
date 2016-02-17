@@ -13,3 +13,7 @@ $(document).ready(function(){
 		$(this).toggleClass('open');
 	});
 });
+
+// $("#contact").click(function(){
+
+// });
