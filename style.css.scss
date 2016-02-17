@@ -226,9 +226,10 @@ label {
 }
 
 .contact-background {
-	max-width:600px;
+	max-width:620px;
 	margin:0 auto;
 	flex:1 1 auto;
+	padding:0 20px;
 }
 
 .form-control {
@@ -236,6 +237,8 @@ label {
 	border: 1px solid #2BB86C;
 	height: 40px;
 	margin-bottom: 25px;
+	font-size: 16px;
+	color:#020F1A;
 }
 
 .visible {
@@ -244,10 +247,30 @@ label {
 
 .project {
 	height:100vh;
+	background-color:white;
+	position:relative;
 }
 
+.description {
+	height:220px;
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	background-color:#020F1A;
+}
+
+.section-title {
+	color:#020F1A;
+	font-size:30px;
+}
+
+
+
+
+
+
 .footer {
-	height: 150px;
+	height: 200px;
 	background-color:#020F1A;
 	width:100%;
 	display:flex;
@@ -269,8 +292,18 @@ label {
 	color:white;
 }
 
+.icon:hover {
+  border: 1px solid #2BB86C;
+  background-color: transparent;
+
+}
+.icon:hover a {
+
+  color:#2BB86C;
+}
+
 .made {
-	margin-top: 30px;
+	margin-top: 25px;
 }
 .made i {
 	color:#D7474A;
