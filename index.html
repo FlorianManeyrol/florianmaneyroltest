@@ -59,12 +59,27 @@
   		<h1 class="text-center">Is there bootstrap?</h1>
   	</section>
   	<section class="contact">
-  		<form action="//formspree.io/your@email.com"
-      method="POST">
-    		<input type="text" name="name">
-    		<input type="email" name="_replyto">
-    		<input type="submit" value="Send">
-			</form>
+  		<div class="contact-background">
+  			<form action="//formspree.io/your@email.com"
+  			method="POST">
+  			<input type="text" name="_gotcha" style="display:none" />
+  			<div class="form-group">
+  				<label for="Nom">NOM</label>
+  				<input type="text" class="form-control" name="name" id="Nom">
+  			</div>
+  			<div class="form-group">
+  				<label for="Email">EMAIL</label>
+  				<input type="email" class="form-control" name="_replyto" type="email" id="Email">
+  			</div>
+  			<div class="form-group">
+  				<label for="Message">MESSAGE</label>
+  				<textarea name="message" class="form-control" id="Message" rows="8"></textarea>
+  			</div>
+  			<div class="form-group text-center">
+  				<input type="submit" class="btn btn-fm" value="Envoyer" >
+  			</div>
+  			</form>
+  		</div>
   	</section>
 		<footer class="footer text-center">
 			<div class="footer-flex">	
@@ -74,12 +89,21 @@
 					</a>
 				</div>
 				<div class="icon">
-					<i class="fa fa-github fa-2x"></i>	
+					<a href="https://github.com/FlorianManeyrol" target="_blank">
+						<i class="fa fa-github fa-2x"></i>
+					</a>	
 				</div>
 				<div class="icon">
-					<i class="fa fa-linkedin-square fa-2x"></i>
+					<a href="https://www.linkedin.com/in/florianmaneyrol" target="_blank">
+						<i class="fa fa-linkedin-square fa-2x"></i>
+					</a>
 				</div>
-			</div>	
+				<div class="made">
+					Fait avec <i class="fa fa-heart-o"></i> à Montussan
+					<br>
+					<p>© 2016 Florian Maneyrol</p>
+				</div>
+			</div>
 		</footer>
 
 

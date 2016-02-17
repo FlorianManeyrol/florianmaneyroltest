@@ -10,10 +10,18 @@ ul {
 	padding:0px;
 }
 
-// @font-face {
-// 	font-family:"circular";
-// 	src: url('lineto-circular-book.ttf') format('truetype');
-// }
+input[type="text"],input[type="email"], textarea {
+box-shadow:none !important;
+border:1px solid #2BB86C !important;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: none !important; 
+}
+
+label {
+	color:#2BB86C;
+}
 
 
 .navbar-main {
@@ -189,9 +197,9 @@ ul {
     background-color: transparent;
     border-radius: 0px;
     color: #2BB86C;
-    font-size: 23px;
-    padding: 6px 30px;
-    text-transform: lowercase;
+    font-size: 16px;
+    padding: 8px 30px;
+    text-transform: uppercase;
     font-weight: bold;
     border-color: #2BB86C;
 }
@@ -209,6 +217,26 @@ ul {
 
 }
 
+.contact {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	background-color:#FAFAFA;
+}
+
+.contact-background {
+	max-width:600px;
+	margin:0 auto;
+	flex:1 1 auto;
+}
+
+.form-control {
+	border-radius:0px;
+	border: 1px solid #2BB86C;
+	height: 40px;
+	margin-bottom: 25px;
+}
 
 .visible {
 	display:none;
@@ -218,16 +246,13 @@ ul {
 	height:100vh;
 }
 
-.contact {
-	height:100vh;
-	background-color:#FAFAFA;
-
-}
-
 .footer {
 	height: 150px;
 	background-color:#020F1A;
 	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 
 .icon {
@@ -242,6 +267,18 @@ ul {
 
 .icon a {
 	color:white;
+}
+
+.made {
+	margin-top: 30px;
+}
+.made i {
+	color:#D7474A;
+}
+
+.made p {
+    font-size: 15px;
+    margin-top: 15px; 
 }
 
 
@@ -264,14 +301,11 @@ ul {
 	left: 11px;
 }
 
-.footer {
-	display:flex;
-	justify-content:center;
-	align-items:center;
-
 .footer-flex {
 	flex:0 1 auto;
 }
+
+
 
 
 
