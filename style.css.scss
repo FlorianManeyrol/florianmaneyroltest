@@ -71,7 +71,7 @@ label {
 }
 
 .first-bloc {
-	background:url("images/plymouth.jpeg") no-repeat;
+	background:url("images/cox.jpeg") no-repeat;
 	background-size:cover;
 	height:100vh;
 }
@@ -207,8 +207,19 @@ label {
 
 
 .btn-fm {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 3px;
+    color: #2BB86C;
+    font-size: 16px;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-color: #2BB86C;
+}
+
+.btn-ct {
     background-color: transparent;
-    border-radius: 0px;
+    border-radius: 3px;
     color: #2BB86C;
     font-size: 16px;
     padding: 8px 30px;
@@ -218,9 +229,12 @@ label {
 }
 
 .btn-fm:hover {
-	  background-color: #2BB86C;
-    color: white;
+    color: #2BB86C;
+    background-color: rgba(0,0,0,0.7);
+}
 
+.btn-ct:hover {
+	color: #2BB86C;
 }
 
 .filter-black {
