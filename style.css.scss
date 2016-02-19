@@ -80,6 +80,11 @@ label {
 	flex:0 1 auto;
 	color:white;
 }
+.teaser h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
 
 .filter-black  {
 	display:flex;
@@ -233,12 +238,17 @@ label {
     background-color: rgba(0,0,0,0.7);
 }
 
+.btn-fm:focus {
+	color: #2BB86C;
+  background-color: rgba(0,0,0,0.7);
+}
+
 .btn-ct:hover {
 	color: #2BB86C;
 }
 
 .filter-black {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.4);
 	height:100vh;
 	width:100%;
 
@@ -388,16 +398,30 @@ label {
 }
 
 
-.img-ouipharma {
-	flex: 0 0 auto;
-}
+// .img-ouipharma {
+// 	flex: 0 0 auto;
+// }
 
 .left {
-	background:url("images/ouipharmaicongrey.png") no-repeat;
+	background:url("images/ouipharmaicon.png") no-repeat;
 	background-size:80%;
 	background-position: center;
+	background-color: #C0DCD7;
 }
 
+.top {
+	background:url("images/meuhlogo.png") no-repeat;
+	background-size:80%;
+	background-position: center;
+	background-color: #F8F0D6;
+}
+
+.bottom {
+	background:url("images/avipur.png") no-repeat;
+	background-size:80%;
+	background-position: center;
+	background-color: #C2D4B5;
+}
 
 .test {
 	background-color:grey;
@@ -415,9 +439,19 @@ label {
 	font-size:50px;
 }
 
+.top .filter-blackblack .explication {
+	color:white;
+	font-size:30px;
+}
+
+.bottom .filter-blackblack .explication {
+	color:white;
+	font-size:30px;
+}
+
 .filter-blackblack {
 	background-color: rgba(0, 0, 0, 0.85);
-	height:100vh;
+	height:100%;
 	width:100%;
 	display:flex;
 	justify-content:center;
