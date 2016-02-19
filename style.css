@@ -493,21 +493,24 @@ label {
 	}
 	.project {
 		width:100%;
-		height:300vh;
+		height:210vh;
 	}
 	.left {
 		width:100%;
 		display:block;
+		background-size:100%;
 	}
 	.top {
 		width:100%;
 		display:block;
-		height:100vh;
+		height:70vh;
+		background-size:100%;
 	}
 	.bottom {
 		width:100%;
 		display:block;
-		height:100vh;
+		height:70vh;
+		background-size:100%;
 	}
 }
 
