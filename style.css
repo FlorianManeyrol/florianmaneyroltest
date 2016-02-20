@@ -515,7 +515,7 @@ label {
 }
 
 /* iPhone 4 */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
 	.fullheight {
 		height: 320px;
 	}
@@ -524,7 +524,7 @@ label {
 	.fullheight {
 		height: 480px;
 	}
-}
+}*/
 
 
 
