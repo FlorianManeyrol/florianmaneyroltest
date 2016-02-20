@@ -33,4 +33,10 @@ $(".project-btn").click(function(){
 		return false;
  });
 
+// FIX BUG ON IOS 6
+var iOS = navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true;
+if(iOS && $('.slideshow').css('min-height') == '100vh'){
+  $('.slideshow').css('min-height', '0');
+}
+
 
