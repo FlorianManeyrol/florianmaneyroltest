@@ -536,7 +536,7 @@ label {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
 	.topheight {
-		top: 336px;
+		top: 480px;
 	}
 }
 
