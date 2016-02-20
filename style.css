@@ -506,7 +506,7 @@ label {
 		display:block;
 		height:70vh;
 		background-size:100%;
-		top: 70vh;
+		top:70vh;
 	}
 	.bottom {
 		width:100%;
@@ -531,6 +531,12 @@ label {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
 	.maxheight {
 		height: 1008px;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	.topheight {
+		top: 336px;
 	}
 }
 
