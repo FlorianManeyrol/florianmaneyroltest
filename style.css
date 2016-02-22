@@ -472,13 +472,10 @@ label {
 	opacity:0;
 }
 
-.filter-blackblack:hover {
+.filter-blackblack:hover, .filter-blackblack:active {
 	opacity:1;
 }
 
-.filter-blackblack:focus {
-	opacity:1;
-}
 
 
 
