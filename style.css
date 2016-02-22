@@ -198,7 +198,7 @@ label {
 .tg-dropdown {
 	position:absolute;
 	top:80px;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.9);
 	width: 100%;
 	display:none;
 }
@@ -208,6 +208,7 @@ label {
 	list-style:none;
 	padding:20px;
 	text-align:center;
+	font-size: 30px;
 }
 
 .tg-dropdown ul li a {
@@ -517,6 +518,9 @@ label {
 		display:block;
 		height:70vh;
 		background-size:100%;
+	}
+	.icon {
+		margin:0 5px;
 	}
 }
 
