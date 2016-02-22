@@ -472,7 +472,10 @@ label {
 	opacity:0;
 }
 
-.filter-blackblack:hover, .filter-blackblack:active {
+.filter-blackblack:hover {
+	opacity:1;
+}
+.filter-blackblack:active {
 	opacity:1;
 }
 
