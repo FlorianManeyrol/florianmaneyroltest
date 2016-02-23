@@ -34,6 +34,7 @@ label {
   left: 0px;
   margin-bottom: 0px;
   border: 0px;
+  z-index: 1;
 }
 .navbar-logo {
   position: absolute;
@@ -197,10 +198,11 @@ label {
 
 .tg-dropdown {
 	position:absolute;
-	top:80px;
-	background-color: rgba(0, 0, 0, 0.9);
+/*	top:80px;*/
+	background-color: rgba(0, 0, 0, 1);
 	width: 100%;
 	display:none;
+	    height: 100%;
 }
 
 .tg-dropdown ul li {
@@ -480,6 +482,10 @@ label {
 	opacity:1;
 }
 
+.overflow-hidden {
+	overflow-y:hidden !important;
+}
+
 
 
 
@@ -494,7 +500,9 @@ label {
 		display: none;
 	}
 	.visible {
-		display:block;
+		display: flex;
+    justify-content: center;
+    align-items: center;
 	}
 	.project {
 		width:100%;
