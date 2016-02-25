@@ -45,10 +45,10 @@ $(".project-btn").click(function(){
 //   }
 // }, false);
 
-$('.tg').click(function(){
-    $('body').toggleClass('overflow-hidden');
+// $('.tg').click(function(){
+//     $('body').toggleClass('overflow-hidden');
 
-});
+// });
 
 // $('.tg-dropdown ul li a').click(function(){
 // 		$('body').removeClass("overflow-hidden");
