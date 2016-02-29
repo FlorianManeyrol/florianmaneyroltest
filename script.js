@@ -14,6 +14,10 @@ $(document).ready(function(){
 	});
 });
 
+$(".plus").click(function() {
+  $(".filter-blackblack-mobile").toggleClass("plus"); 
+});
+
 // SMOOTH SCROLL
 $("#contact-btn").click(function(){
 	$('html,body').animate(
