@@ -558,7 +558,7 @@ label {
 		height: 320px;
 	}
 }
-@media only screen and (max-device-width : 320px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+@media only screen and (max-device-width : 300px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
 	.fullheight {
 		height: 480px;
 	}
