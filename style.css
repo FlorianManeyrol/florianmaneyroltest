@@ -3,6 +3,12 @@ body {
 	-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color:#020F1A;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: "Montserrat light";
+    src: url('Montserrat-Light.ttf');
 }
 
 ul {
@@ -85,6 +91,7 @@ label {
   margin-top: 50px;
   margin-bottom: 20px;
   font-size: 30px;
+  text-shadow: 2px 2px 15px #000000;
 }
 
 .filter-black  {
