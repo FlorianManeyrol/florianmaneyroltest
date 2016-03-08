@@ -607,6 +607,8 @@ label {
 	.teaser h3 {
 		font-size: 25px;
 	}
+	.first-bloc h1 {
+	font-weight: 100;
 }
 
 /* iPhone 4 */
