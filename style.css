@@ -78,7 +78,7 @@ label {
 }
 
 .first-bloc {
-	background:url("images/cox.jpeg") no-repeat;
+	background:url("images/cox-web.jpeg") no-repeat;
 	background-size:cover;
 	height:100vh;
 }
@@ -426,7 +426,7 @@ label {
 // }
 
 .left {
-	background:url("images/ouipharmaicon.png") no-repeat;
+	background:url("images/réalisation-ouipharma.png") no-repeat;
 	background-size:80%;
 	background-position: center;
 	background-color: #C0DCD7;
@@ -457,10 +457,16 @@ label {
 	color:white;
 }
 
+.left .filter-blackblack .explication a {
+	color:white;
+	font-size:50px;
+}
+
 .left .filter-blackblack .explication {
 	color:white;
 	font-size:50px;
 }
+
 
 .top .filter-blackblack .explication {
 	color:white;
@@ -496,7 +502,57 @@ label {
 	overflow-y:hidden !important;
 }
 
+.skip {
+	position: absolute;
+  bottom: 30px;
+  width: auto;
+  height: auto;
+  z-index: 4;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color:white;
+}
 
+
+.pulsing {
+	  animation-name: pulse;
+    -webkit-animation-name: pulse;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0, 7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+        opacity: 0, 7;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
 
 
 
