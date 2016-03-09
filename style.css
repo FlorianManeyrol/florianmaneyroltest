@@ -78,12 +78,13 @@ label {
 }
 
 .first-bloc {
-	background:url("images/cox-web.jpg") no-repeat;
+	background:url("images/cox-web.jpg");
 	background-size:cover;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 	height:100vh;
+	background-repeat: no-repeat;
 }
 
 .teaser {
@@ -610,7 +611,7 @@ label {
 
 
 
-@media screen and (max-width:740px) {
+@media only screen and (max-width:740px) {
 	.tg {
 		display:inline-block;
 	}
@@ -643,7 +644,6 @@ label {
 		width:100%;
 		display:block;
 		height:400px;
-
 	}
 	.icon {
 		margin:0 5px;
@@ -671,6 +671,23 @@ label {
 	}
 }
 
+
+@media only screen and (min-width:740px) and (max-width:1024px) {
+	.plus1, .plus2, .plus3 {
+		display:block;
+	}
+	.filter-blackblack {
+	display: none;
+	}
+	.visible {
+		display: flex;
+    justify-content: center;
+    align-items: center;
+	}
+	.filter-mobile2 .explication p {
+		font-size:20px;
+	}
+}
 /* iPhone 4 */
 /*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
 	.fullheight {
@@ -690,7 +707,7 @@ label {
 	.noheight {
 		height: 600px;
 	}*/
-}
+
 
 /*@media only screen and (max-device-width : 320px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
 	.fullheight {
