@@ -80,6 +80,9 @@ label {
 .first-bloc {
 	background:url("images/cox-web.jpg") no-repeat;
 	background-size:cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 	height:100vh;
 }
 
@@ -660,9 +663,9 @@ label {
 	.filter-blackblack {
 	display: none;
 	}
-	.first-bloc {
+/*	.first-bloc {
 		height:600px;
-	}
+	}*/
 	.contact {
 		height: 600px;
 	}
