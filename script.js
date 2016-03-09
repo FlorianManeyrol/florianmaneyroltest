@@ -14,9 +14,19 @@ $(document).ready(function(){
 	});
 });
 
-$(".plus").click(function() {
+$(".plus1").click(function() {
   $(this).toggleClass('active');
-  $(".filter-mobile").toggleClass("visible"); 
+  $(".filter-mobile1").toggleClass("visible"); 
+});
+
+$(".plus2").click(function() {
+  $(this).toggleClass('active');
+  $(".filter-mobile2").toggleClass("visible"); 
+});
+
+$(".plus3").click(function() {
+  $(this).toggleClass('active');
+  $(".filter-mobile3").toggleClass("visible"); 
 });
 
 
