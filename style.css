@@ -605,6 +605,19 @@ label {
 	text-decoration:none;
 }
 
+.filter-mobile2 .explication p {
+	font-size:28px;
+	margin-top:10px;
+	color: #2BB86C;
+}
+
+.filter-mobile3 .explication p {
+	font-size:28px;
+	margin-top:10px;
+	color: #2BB86C;
+}
+
+
 
 
 
@@ -684,8 +697,18 @@ label {
     justify-content: center;
     align-items: center;
 	}
+
 	.filter-mobile2 .explication p {
 		font-size:20px;
+	}
+	.filter-mobile3 .explication p {
+		font-size:20px;
+	}
+	.filter-mobile2 .explication {
+		font-size:25px;
+	}
+	.filter-mobile3 .explication {
+		font-size:25px;
 	}
 }
 /* iPhone 4 */
