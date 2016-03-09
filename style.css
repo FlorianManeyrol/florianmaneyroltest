@@ -643,6 +643,9 @@ label {
 	.filter-blackblack {
 	display: none;
 	}
+	.first-block {
+		height:600px;
+	}
 }
 
 /* iPhone 4 */
