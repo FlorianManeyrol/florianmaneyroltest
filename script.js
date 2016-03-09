@@ -14,6 +14,13 @@ $(document).ready(function(){
 	});
 });
 
+$(".plus").click(function() {
+  $(this).toggleClass('active');
+  $(".filter-mobile").toggleClass("visible"); 
+});
+
+
+
 // SMOOTH SCROLL
 $("#contact-btn").click(function(){
 	$('html,body').animate(
