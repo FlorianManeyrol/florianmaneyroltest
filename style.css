@@ -98,9 +98,6 @@ label {
   text-shadow: 2px 2px 15px #000000;
 }
 
-.teaser h2 {
-  color:#8F8F8F;
-}
 
 .filter-black  {
 	display:flex;
@@ -521,8 +518,8 @@ label {
 
 
 .degres {
-  height:80vh;
-  background: url('images/95degres.png');
+  height:100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/95degres.png');
   background-size: cover;
 }
 
