@@ -34,7 +34,7 @@ label {
   height: 80px;
   position: absolute;
   width: 100%;
-  background-color:rgba(0,0,0,.6) ;
+  background-color:transparent ;
   border-radius: 0px;
   top: 0px;
   left: 0px;
@@ -245,13 +245,14 @@ label {
 
 .btn-fm {
     background-color: #2EBD59;
-    border-radius: 20px;
+    border-radius: 500px;
     color: white;
     font-size: 18px;
     font-weight: bold;
     padding: 9px 47px 7px;
     text-transform: uppercase;
     border-color: #2EBD59;
+    border: 2px solid #2EBD59;
 }
 
 .btn-ct {
