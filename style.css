@@ -742,6 +742,7 @@ label {
 #degres {
   background: url('images/95degres.png');
   background-size: cover;
+  background-position: 45%;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
@@ -750,11 +751,11 @@ label {
 }
 
 #degres:hover {
-  -webkit-transform:scale(1.25);
-  -moz-transform:scale(1.25);
-  -ms-transform:scale(1.25);
-  -o-transform:scale(1.25);
-  transform:scale(1.25);
+  -webkit-transform:scale(1.05);
+  -moz-transform:scale(1.05);
+  -ms-transform:scale(1.05);
+  -o-transform:scale(1.05);
+  transform:scale(1.05);
 }
 
 .scroll-arrow {
