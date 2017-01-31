@@ -739,6 +739,16 @@ label {
 
 .scroll-arrow {
   position: absolute;
+  background-color: #FFF;
+  display: block;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  box-shadow: 0 0 7px 0 rgba(0,0,0,.13);
+}
+
+.project-content-title {
+  color:#2EBD59;
 }
 
 
