@@ -87,6 +87,9 @@ label {
 	min-height:75vh;
   background-position: 100% 40%;
 	background-repeat: no-repeat;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .teaser {
@@ -98,14 +101,13 @@ label {
   margin-bottom: 20px;
   font-size: 30px;
   text-shadow: 2px 2px 15px #000000;
+  font-weight: 700;
 }
 
 
-.filter-black  {
-	display:flex;
-	justify-content:center;
-	align-items:center;
-}
+/*.filter-black  {
+
+}*/
 
 .jumbo h1,h2,h3{
 	padding-right: 15px;
@@ -114,12 +116,8 @@ label {
 }
 
 .jumbo h1 {
-	font-size:50px;
+	font-size:60px;
 	font-weight: 700;
-}
-
-.jumbo h2 {
-  font-family: 'Open sans', sans-serif;
 }
 
 .navbar-container {
@@ -321,9 +319,9 @@ label {
 }
 
 .project {
-	height:100vh;
 	background-color:white;
-	position:relative;
+  padding-top: 150px;
+  padding-bottom: 180px;
 }
 
 .left {
