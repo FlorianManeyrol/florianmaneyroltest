@@ -83,12 +83,13 @@ label {
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-	min-height:75vh;
+	min-height:77vh;
   background-position: 100% 40%;
 	background-repeat: no-repeat;
   display:flex;
   justify-content:center;
   align-items:center;
+  position: relative;
 }
 
 .teaser {
@@ -736,6 +737,9 @@ label {
   background-size: cover;
 }
 
+.scroll-arrow {
+  position: absolute;
+}
 
 
 
