@@ -758,6 +758,25 @@ label {
   transform:scale(1.05);
 }
 
+#ouipharma {
+  background: url('images/ouipharma.png');
+  background-size: cover;
+  background-position: 45%;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#ouipharma:hover {
+  -webkit-transform:scale(1.05);
+  -moz-transform:scale(1.05);
+  -ms-transform:scale(1.05);
+  -o-transform:scale(1.05);
+  transform:scale(1.05);
+}
+
 .scroll-arrow {
   position: absolute;
   background-color: #FFF;
