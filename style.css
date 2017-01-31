@@ -721,8 +721,9 @@ label {
 /* Project box */
 
 .project-box {
-  padding-top:50px;
-  padding-bottom: 30px;
+  padding: 50px;
+  margin: 40px 0px;
+  background: #F8F8F8;
 }
 
 .project-title h1 {
@@ -739,8 +740,21 @@ label {
 
 
 #degres {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/95degres.png');
+  background: url('images/95degres.png');
   background-size: cover;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#degres:hover {
+  -webkit-transform:scale(1.25);
+  -moz-transform:scale(1.25);
+  -ms-transform:scale(1.25);
+  -o-transform:scale(1.25);
+  transform:scale(1.25);
 }
 
 .scroll-arrow {
