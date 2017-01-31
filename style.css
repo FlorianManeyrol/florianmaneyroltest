@@ -523,7 +523,7 @@ label {
 .degres {
   height:80vh;
   background: url('images/95degres.png');
-  background-position: cover;
+  background-size: cover;
 }
 
 
