@@ -116,7 +116,10 @@ label {
 .jumbo h1 {
 	font-size:50px;
 	font-weight: 700;
+}
 
+.jumbo h2 {
+  font-family: 'Open sans', sans-serif;
 }
 
 .navbar-container {
