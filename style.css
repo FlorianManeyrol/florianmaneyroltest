@@ -29,6 +29,10 @@ label {
 	color:#2BB86C;
 }
 
+b {
+  font-weight: bold;
+}
+
 
 .navbar-main {
   height: 80px;
