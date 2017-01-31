@@ -729,6 +729,7 @@ label {
 
 .project-img {
   min-height: 375px;
+  box-shadow: 0 0 8px rgba(0,0,0,.3);
 }
 
 
@@ -759,7 +760,9 @@ label {
 
 
 .project-content-title {
-  color:#2EBD59;
+  color: #2EBD59;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 
