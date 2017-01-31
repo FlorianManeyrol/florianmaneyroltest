@@ -727,13 +727,13 @@ label {
   font-size: 50px;
 }
 
-
-.project-box {
-  min-height:375px;
+.project-img {
+  min-height: 375px;
 }
 
+
 #degres {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/95degres.png');
+  background: url('images/95degres.png');
   background-size: cover;
 }
 
@@ -744,8 +744,19 @@ label {
   width: 52px;
   height: 52px;
   border-radius: 50%;
+  bottom: -26px;
   box-shadow: 0 0 7px 0 rgba(0,0,0,.13);
+  transition: fill .3s ease-in-out,transform .3s ease-in-out,color .3s ease-in-out;
 }
+
+.scroll-arrow i {
+  position: absolute;
+  font-size: 40px;
+  left: 13px;
+  top: 7px;
+  color: #2EBD59;
+}
+
 
 .project-content-title {
   color:#2EBD59;
