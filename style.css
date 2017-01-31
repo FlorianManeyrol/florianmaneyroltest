@@ -34,13 +34,14 @@ label {
   height: 80px;
   position: absolute;
   width: 100%;
-  background-color: transparent;
+  background-color:rgba(0,0,0,.6) ;
   border-radius: 0px;
   top: 0px;
   left: 0px;
   margin-bottom: 0px;
   border: 0px;
   z-index: 1;
+  position: fixed;
 }
 .navbar-logo {
   position: absolute;
@@ -70,7 +71,7 @@ label {
 
 .navbar-menu a:hover {
 	text-decoration:none;
-	color:#2BB86C;
+	color:#2EBD59;
 }
 
 .navbar-menu a:focus{
@@ -84,6 +85,7 @@ label {
   -moz-background-size: cover;
   -o-background-size: cover;
 	min-height:75vh;
+  background-position: 100% 40%;
 	background-repeat: no-repeat;
 }
 
@@ -242,12 +244,14 @@ label {
 }
 
 .btn-fm {
-    background-color: #2BB86C;
+    background-color: #2EBD59;
     border-radius: 20px;
-    color: #020F1A;
-    font-size: 16px;
-    padding: 8px 30px;
-    border-color: #2BB86C;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 9px 47px 7px;
+    text-transform: uppercase;
+    border-color: #2EBD59;
 }
 
 .btn-ct {
@@ -262,13 +266,15 @@ label {
 }
 
 .btn-fm:hover {
-    color: #2BB86C;
-    background-color: rgba(0,0,0,0.7);
+  border:2px solid #FFF;
+  color:white;
+  background-color: transparent;
 }
 
 .btn-fm:focus {
-	color: #2BB86C;
-  background-color: rgba(0,0,0,0.7);
+  border:2px solid #FFF;
+  color:white;
+  background-color: transparent;
 }
 
 .btn-ct:hover {
