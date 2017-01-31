@@ -732,7 +732,7 @@ label {
   min-height:375px;
 }
 
-.degres {
+#degres {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/95degres.png');
   background-size: cover;
 }
