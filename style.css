@@ -77,13 +77,13 @@ label {
 	text-decoration:none;
 }
 
-.first-bloc {
+.jumbo {
 	background:url("images/cox-web2.jpg");
 	background-size:cover;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-	height:100vh;
+	min-height:75vh;
 	background-repeat: no-repeat;
 }
 
@@ -105,13 +105,13 @@ label {
 	align-items:center;
 }
 
-.first-bloc h1,h2,h3{
+.jumbo h1,h2,h3{
 	padding-right: 15px;
   padding-left: 15px;
   text-shadow: 2px 2px 15px #000000;
 }
 
-.first-bloc h1 {
+.jumbo h1 {
 	font-size:50px;
 	font-weight: 700;
 
@@ -277,7 +277,7 @@ label {
 
 .filter-black {
 	background-color: rgba(0, 0, 0, 0.4);
-	height:100vh;
+	min-height:75vh;
 	width:100%;
 
 }
@@ -516,14 +516,6 @@ label {
   color:white;
 }
 
-
-.degres {
-  height:100vh;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/95degres.png');
-  background-size: cover;
-}
-
-
 .pulsing {
 	  animation-name: pulse;
     -webkit-animation-name: pulse;
@@ -669,7 +661,7 @@ label {
 	.teaser h3 {
 		font-size: 25px;
 	}
-	.first-bloc h1 {
+	.jumbo h1 {
 	font-weight: 100;
 	}
 	.plus1, .plus2, .plus3 {
@@ -713,12 +705,21 @@ label {
 		font-size:25px;
 	}
 
-	.first-bloc h1 {
+	.jumbo h1 {
 	font-weight: 100;
 	}
 }
 
+/* Project box */
 
+.project-box {
+  min-height:375px;
+}
+
+.degres {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/95degres.png');
+  background-size: cover;
+}
 
 
 
