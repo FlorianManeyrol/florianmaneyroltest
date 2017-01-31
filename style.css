@@ -720,6 +720,11 @@ label {
 
 /* Project box */
 
+.project-box {
+  padding-top:50px;
+  padding-bottom: 30px;
+}
+
 .project-title h1 {
   text-align: center;
   font-weight: 700;
