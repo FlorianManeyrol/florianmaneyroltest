@@ -98,6 +98,10 @@ label {
   text-shadow: 2px 2px 15px #000000;
 }
 
+.teaser h2 {
+  color:#8F8F8F95;
+}
+
 .filter-black  {
 	display:flex;
 	justify-content:center;
@@ -516,7 +520,7 @@ label {
 }
 
 
-.95degres {
+.degres {
   height:80vh;
   background: url('images/95degres.png');
   background-position: cover;
@@ -664,7 +668,6 @@ label {
 	}
 	.teaser h2 {
 		font-size: 25px;
-    color:#8f8f8f;
 	}
 	.teaser h3 {
 		font-size: 25px;
