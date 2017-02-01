@@ -914,6 +914,12 @@ b {
   box-shadow: 0 0 8px rgba(0,0,0,.3);
 }
 
+.project-content-title-2 {
+  color: #2EBD59;
+  font-size: 30px;
+  font-weight: 700;
+}
+
 .hidden {
   display: none;
 }

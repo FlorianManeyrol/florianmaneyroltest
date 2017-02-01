@@ -38,6 +38,10 @@ $(".see-more").hover(function() {
   $(this).toggleClass("pulsing");
 });
 
+$(".scroll-arrow").hover(function() {
+  $(this).toggleClass("pulsing");
+});
+
 
 
 // SMOOTH SCROLL
