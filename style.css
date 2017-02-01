@@ -819,6 +819,25 @@ b {
   transform:scale(1.05);
 }
 
+#fds {
+  background: url('images/fds.png');
+  background-size: cover;
+  background-position: 45%;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#fds:hover {
+  -webkit-transform:scale(1.05);
+  -moz-transform:scale(1.05);
+  -ms-transform:scale(1.05);
+  -o-transform:scale(1.05);
+  transform:scale(1.05);
+}
+
 .scroll-arrow {
   position: absolute;
   background-color: #FFF;
@@ -844,6 +863,29 @@ b {
   color: #2EBD59;
   font-size: 40px;
   font-weight: 700;
+}
+
+.see-more {
+  text-transform: uppercase;
+  color:#2EBD59;
+  text-align: center;
+  font-size:16px;
+  font-weight: 700;
+}
+
+.project-box-2 {
+  padding: 25px;
+  margin: 40px 0px;
+  background: #F8F8F8;
+}
+
+.project-img-2 {
+  min-height: 250px;
+  box-shadow: 0 0 8px rgba(0,0,0,.3);
+}
+
+.hidden {
+  display: none;
 }
 
 

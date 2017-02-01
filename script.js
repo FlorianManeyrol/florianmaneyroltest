@@ -1,11 +1,11 @@
-// $(".tg").click(function() {  
-//   $(".tg-dropdown").slideToggle(200).addClass("visible"); 
+// $(".tg").click(function() {
+//   $(".tg-dropdown").slideToggle(200).addClass("visible");
 // });
 
 // TOGGLE MENU
 $(".tg").click(function() {
   $(this).toggleClass('active');
-  $(".tg-dropdown").toggleClass("visible"); 
+  $(".tg-dropdown").toggleClass("visible");
 });
 
 $(document).ready(function(){
@@ -16,18 +16,23 @@ $(document).ready(function(){
 
 $(".plus1").click(function() {
   $(this).toggleClass('active');
-  $(".filter-mobile1").toggleClass("visible"); 
+  $(".filter-mobile1").toggleClass("visible");
 });
 
 $(".plus2").click(function() {
   $(this).toggleClass('active');
-  $(".filter-mobile2").toggleClass("visible"); 
+  $(".filter-mobile2").toggleClass("visible");
 });
 
 $(".plus3").click(function() {
   $(this).toggleClass('active');
-  $(".filter-mobile3").toggleClass("visible"); 
+  $(".filter-mobile3").toggleClass("visible");
 });
+
+$(".see-more").click(function() {
+  $(".project-box-2").removeClass('hidden');
+});
+
 
 
 
@@ -35,20 +40,22 @@ $(".plus3").click(function() {
 $("#contact-btn").click(function(){
 	$('html,body').animate(
 		{scrollTop: $("#contact").offset().top}, 'slow');
-		return false;
- });
+  return false;
+});
 
 $(".contact-btn").click(function(){
 	$('html,body').animate(
 		{scrollTop: $("#contact").offset().top}, 'slow');
-		return false;
- });
+  return false;
+});
 
 $(".project-btn").click(function(){
 	$('html,body').animate(
 		{scrollTop: $("#project").offset().top}, 'slow');
-		return false;
- });
+  return false;
+});
+
+
 
 // FIX BUG ON IOS 6
 // var iOS = navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true;
