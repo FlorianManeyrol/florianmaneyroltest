@@ -31,8 +31,12 @@ $(".plus3").click(function() {
 
 $(".see-more").click(function() {
   $(".project-box-2").removeClass('hidden');
+  $(this).css({'display':'none'})
 });
 
+$(".see-more").hover(function() {
+  $(this).addClass("pulsing")
+});
 
 
 
