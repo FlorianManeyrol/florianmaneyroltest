@@ -64,6 +64,13 @@ $(".project-btn").click(function(){
 });
 
 
+$(document).ready(function(){
+  $('.slider').slick({
+    infinite: true
+    arrows: true
+  });
+});
+
 
 
 // FIX BUG ON IOS 6
