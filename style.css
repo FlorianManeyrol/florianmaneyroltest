@@ -898,6 +898,11 @@ b {
   font-weight: 700;
 }
 
+.see-more:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .project-box-2 {
   padding: 25px;
   margin: 40px 0px;
