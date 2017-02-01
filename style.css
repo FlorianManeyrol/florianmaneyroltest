@@ -744,8 +744,33 @@ b {
   }
 
   .jumbo h1 {
-   font-weight: 100;
- }
+    font-weight: 100;
+  }
+    .btn-fm {
+    font-size: 14px;
+  }
+  .projet {
+    padding-top: 70px;
+  }
+  .project-title h1 {
+    font-size: 35px;
+  }
+  .project-img {
+    min-height: 180px;
+  }
+  .project-box {
+    padding: 15px 0px;
+  }
+
+  .project-content-title {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+  }
+  .project-content-content {
+    font-size: 14px;
+    padding: 12px;
+  }
 }
 
 /* Project box */
