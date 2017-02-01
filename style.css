@@ -875,6 +875,10 @@ b {
   transition: fill .3s ease-in-out,transform .3s ease-in-out,color .3s ease-in-out;
 }
 
+.scroll-arrow:hover {
+  cursor: pointer;
+}
+
 .scroll-arrow i {
   position: absolute;
   font-size: 40px;
