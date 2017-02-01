@@ -63,9 +63,6 @@ $(".project-btn").click(function(){
   return false;
 });
 
-$('.slider').slick({
-  infinite: true
-});
 
 
 
