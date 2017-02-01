@@ -726,38 +726,13 @@ b {
   background: url('images/fds.jpg');
   background-size: cover;
   background-position: 45%;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
 }
 
-#fds:hover {
-  -webkit-transform:scale(1.05);
-  -moz-transform:scale(1.05);
-  -ms-transform:scale(1.05);
-  -o-transform:scale(1.05);
-  transform:scale(1.05);
-}
 
 #kwendoo {
   background: url('images/kwendoo.jpg');
   background-size: cover;
   background-position: 45%;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
-}
-
-#kwendoo:hover {
-  -webkit-transform:scale(1.05);
-  -moz-transform:scale(1.05);
-  -ms-transform:scale(1.05);
-  -o-transform:scale(1.05);
-  transform:scale(1.05);
 }
 
 .scroll-arrow {
