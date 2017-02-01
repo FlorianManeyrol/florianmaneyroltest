@@ -64,12 +64,12 @@ $(".project-btn").click(function(){
 });
 
 
-$(document).ready(function(){
-  $('.slider').slick({
-    infinite: true
-    arrows: true
-  });
-});
+// $(document).ready(function(){
+//   $('.slider').slick({
+//     infinite: true
+//     arrows: true
+//   });
+// });
 
 
 
