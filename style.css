@@ -298,8 +298,9 @@ b {
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	min-height:100vh;
-	background-color:#FAFAFA;
+  background-color:#FAFAFA;
+  padding-top: 150px;
+  padding-bottom: 180px;
 }
 
 .contact-background {
@@ -828,6 +829,11 @@ b {
 
 .hidden {
   display: none;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 40px;
+  color:#2EBD59;
 }
 
 
