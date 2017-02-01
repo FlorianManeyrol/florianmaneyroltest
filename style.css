@@ -723,7 +723,7 @@ b {
 }
 
 #fds {
-  background: url('images/fds.png');
+  background: url('images/fds.jpg');
   background-size: cover;
   background-position: 45%;
   -webkit-transition: all 1s ease;
@@ -742,7 +742,7 @@ b {
 }
 
 #kwendoo {
-  background: url('images/kwendoo.png');
+  background: url('images/kwendoo.jpg');
   background-size: cover;
   background-position: 45%;
   -webkit-transition: all 1s ease;
