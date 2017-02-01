@@ -66,7 +66,7 @@ $(document).ready(function(){
   $('.slider').slick({
     dots: true,
     infinite: true,
-    arrows: true
+    arrows: true,
     slidesToShow: 3,
   });
 });
