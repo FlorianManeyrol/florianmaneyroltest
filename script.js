@@ -35,7 +35,7 @@ $(".see-more").click(function() {
 });
 
 $(".see-more").hover(function() {
-  $(this).addClass("pulsing")
+  $(this).toggleClass("pulsing");
 });
 
 
