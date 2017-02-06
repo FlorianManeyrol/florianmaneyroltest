@@ -816,8 +816,8 @@ b {
   color:#2EBD59;
 }
 
-.notvisible {
-  display :none;
+.slick-slide {
+  width: 530px;
 }
 
 
