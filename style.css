@@ -735,6 +735,19 @@ b {
   background-position: 45%;
 }
 
+#avipur {
+  background: url('images/avipur.png');
+  background-size: cover;
+  background-position: 45%;
+}
+
+
+#mada {
+  background: url('images/meuh.png');
+  background-size: cover;
+  background-position: 45%;
+}
+
 .scroll-arrow {
   position: absolute;
   background-color: #FFF;
