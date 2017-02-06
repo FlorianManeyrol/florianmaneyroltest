@@ -40,7 +40,7 @@ $(".plus3").click(function() {
 
 $(".see-more").click(function() {
   $(".slider").slick("setPosition", 0);
-  $(".project-box-2").removeClass('hidden');
+  $(".project-box-2").removeClass('notvisible');
   $(this).css({'display':'none'})
 });
 

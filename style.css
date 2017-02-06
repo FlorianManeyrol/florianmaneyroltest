@@ -816,6 +816,9 @@ b {
   color:#2EBD59;
 }
 
+.notvisible {
+  display :none;
+}
 
 
 
