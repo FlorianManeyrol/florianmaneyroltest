@@ -1,6 +1,16 @@
 
 
 // TOGGLE MENU
+$(document).ready(function(){
+  $('.slider').slick({
+    dots: true,
+    infinite: true,
+    arrows: true,
+    slidesToShow: 2
+  });
+});
+
+
 $(".tg").click(function() {
   $(this).toggleClass('active');
   $(".tg-dropdown").toggleClass("visible");
@@ -28,6 +38,7 @@ $(".plus3").click(function() {
 });
 
 $(".see-more").click(function() {
+  $('.slider').slick("setPosition", 0);
   $(".project-box-2").removeClass('hidden');
   $(this).css({'display':'none'})
 });
@@ -62,12 +73,7 @@ $(".project-btn").click(function(){
 });
 
 // slider
-$('.slider').slick({
-  dots: true,
-  infinite: true,
-  arrows: true,
-  slidesToShow: 2
-});
+
 
 
 
