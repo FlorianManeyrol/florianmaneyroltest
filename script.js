@@ -61,6 +61,13 @@ $(".project-btn").click(function(){
   return false;
 });
 
+// slider
+$('.slider').slick({
+  dots: true,
+  infinite: true,
+  arrows: true,
+  slidesToShow: 2
+});
 
 
 
