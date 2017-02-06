@@ -830,7 +830,7 @@ b {
 }
 
 .slick-slide {
-  width: 530px;
+  width: 530px!important;
 }
 
 
