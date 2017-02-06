@@ -760,6 +760,10 @@ b {
   color: #2EBD59;
 }
 
+.slick-dots {
+  bottom: -35px;
+}
+
 
 .project-content-title {
   color: #2EBD59;
@@ -788,6 +792,7 @@ b {
 
 .project-img-2 {
   min-height: 250px;
+  margin: 10px 20px;
   box-shadow: 0 0 8px rgba(0,0,0,.3);
 }
 
