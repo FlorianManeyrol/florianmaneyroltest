@@ -3,6 +3,7 @@
 // TOGGLE MENU
 $(document).ready(function(){
   $('.slider').slick({
+    setPosition: 0,
     dots: true,
     infinite: true,
     arrows: true,
@@ -38,7 +39,6 @@ $(".plus3").click(function() {
 });
 
 $(".see-more").click(function() {
-  $('.slider').slick("setPosition", 0);
   $(".project-box-2").removeClass('hidden');
   $(this).css({'display':'none'})
 });
