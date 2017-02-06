@@ -1,15 +1,7 @@
 
 
 // TOGGLE MENU
-$(document).ready(function(){
-  $('.slider').slick({
-    setPosition: 0,
-    dots: true,
-    infinite: true,
-    arrows: true,
-    slidesToShow: 2
-  });
-});
+
 
 
 $(".tg").click(function() {
